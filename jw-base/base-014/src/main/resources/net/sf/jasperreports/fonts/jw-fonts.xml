@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fontFamilies>
+
+	<fontFamily name="仿宋">
+		<normal>net/sf/jasperreports/fonts/jw/SIMFANG.TTF</normal>
+		<bold>net/sf/jasperreports/fonts/jw/SIMFANG.TTF</bold>
+        <italic>net/sf/jasperreports/fonts/jw/SIMFANG.TTF</italic>
+        <boldItalic>net/sf/jasperreports/fonts/jw/SIMFANG.TTF</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'仿宋', Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">'仿宋', Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+	</fontFamily>
+
+	<fontFamily name="黑体">
+		<normal>net/sf/jasperreports/fonts/jw/simhei.ttf</normal>
+		<bold>net/sf/jasperreports/fonts/jw/simhei.ttf</bold>
+        <italic>net/sf/jasperreports/fonts/jw/simhei.ttf</italic>
+        <boldItalic>net/sf/jasperreports/fonts/jw/simhei.ttf</boldItalic>
+		<pdfEncoding>Identity-H</pdfEncoding>
+		<pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'黑体', Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">'黑体', Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+	</fontFamily>
+	
+	<fontFamily name="楷体">
+        <normal>net/sf/jasperreports/fonts/jw/simkai.ttf</normal>
+        <bold>net/sf/jasperreports/fonts/jw/simkai.ttf</bold>
+        <italic>net/sf/jasperreports/fonts/jw/simkai.ttf</italic>
+        <boldItalic>net/sf/jasperreports/fonts/jw/simkai.ttf</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'楷体', Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">'楷体', Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+    </fontFamily>
+    
+    <fontFamily name="隶书">
+        <normal>net/sf/jasperreports/fonts/jw/SIMLI.TTF</normal>
+        <bold>net/sf/jasperreports/fonts/jw/SIMLI.TTF</bold>
+        <italic>net/sf/jasperreports/fonts/jw/SIMLI.TTF</italic>
+        <boldItalic>net/sf/jasperreports/fonts/jw/SIMLI.TTF</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'隶书', Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">'隶书', Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+    </fontFamily>
+    
+    <fontFamily name="宋体">
+        <normal>net/sf/jasperreports/fonts/jw/simsun.ttf</normal>
+        <bold>net/sf/jasperreports/fonts/jw/simsun.ttf</bold>
+        <italic>net/sf/jasperreports/fonts/jw/simsun.ttf</italic>
+        <boldItalic>net/sf/jasperreports/fonts/jw/simsun.ttf</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'宋体', Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">'宋体', Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+    </fontFamily>
+    
+    <!-- 
+    <fontFamily name="幼圆">
+        <normal>net/sf/jasperreports/fonts/jw/SIMYOU.TTF</normal>
+        <bold>net/sf/jasperreports/fonts/jw/SIMYOU.TTF</bold>
+        <italic>net/sf/jasperreports/fonts/jw/SIMYOU.TTF</italic>
+        <boldItalic>net/sf/jasperreports/fonts/jw/SIMYOU.TTF</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'幼圆', Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">'幼圆', Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+    </fontFamily>
+    
+    <fontFamily name="华文彩云">
+        <normal>net/sf/jasperreports/fonts/jw/STCAIYUN.TTF</normal>
+        <bold>net/sf/jasperreports/fonts/jw/STCAIYUN.TTF</bold>
+        <italic>net/sf/jasperreports/fonts/jw/STCAIYUN.TTF</italic>
+        <boldItalic>net/sf/jasperreports/fonts/jw/STCAIYUN.TTF</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'华文彩云', Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">'华文彩云', Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+    </fontFamily>
+    
+    <fontFamily name="华文仿宋">
+        <normal>net/sf/jasperreports/fonts/jw/STFANGSO.TTF</normal>
+        <bold>net/sf/jasperreports/fonts/jw/STFANGSO.TTF</bold>
+        <italic>net/sf/jasperreports/fonts/jw/STFANGSO.TTF</italic>
+        <boldItalic>net/sf/jasperreports/fonts/jw/STFANGSO.TTF</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'华文仿宋', Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">'华文仿宋', Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+    </fontFamily>
+    
+    <fontFamily name="华文琥珀">
+        <normal>net/sf/jasperreports/fonts/jw/STHUPO.TTF</normal>
+        <bold>net/sf/jasperreports/fonts/jw/STHUPO.TTF</bold>
+        <italic>net/sf/jasperreports/fonts/jw/STHUPO.TTF</italic>
+        <boldItalic>net/sf/jasperreports/fonts/jw/STHUPO.TTF</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'华文琥珀', Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">'华文琥珀', Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+    </fontFamily>
+    
+    <fontFamily name="华文楷体">
+        <normal>net/sf/jasperreports/fonts/jw/STKAITI.TTF</normal>
+        <bold>net/sf/jasperreports/fonts/jw/STKAITI.TTF</bold>
+        <italic>net/sf/jasperreports/fonts/jw/STKAITI.TTF</italic>
+        <boldItalic>net/sf/jasperreports/fonts/jw/STKAITI.TTF</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'华文楷体', Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">'华文楷体', Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+    </fontFamily>
+    
+    <fontFamily name="华文隶书">
+        <normal>net/sf/jasperreports/fonts/jw/STLITI.TTF</normal>
+        <bold>net/sf/jasperreports/fonts/jw/STLITI.TTF</bold>
+        <italic>net/sf/jasperreports/fonts/jw/STLITI.TTF</italic>
+        <boldItalic>net/sf/jasperreports/fonts/jw/STLITI.TTF</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'华文隶书', Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">'华文隶书', Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+    </fontFamily>
+    
+    <fontFamily name="华文宋体">
+        <normal>net/sf/jasperreports/fonts/jw/STSONG.TTF</normal>
+        <bold>net/sf/jasperreports/fonts/jw/STSONG.TTF</bold>
+        <italic>net/sf/jasperreports/fonts/jw/STSONG.TTF</italic>
+        <boldItalic>net/sf/jasperreports/fonts/jw/STSONG.TTF</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'华文宋体', Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">'华文宋体', Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+    </fontFamily>
+    
+    <fontFamily name="华文细黑">
+        <normal>net/sf/jasperreports/fonts/jw/STXIHEI.TTF</normal>
+        <bold>net/sf/jasperreports/fonts/jw/STXIHEI.TTF</bold>
+        <italic>net/sf/jasperreports/fonts/jw/STXIHEI.TTF</italic>
+        <boldItalic>net/sf/jasperreports/fonts/jw/STXIHEI.TTF</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'华文细黑', Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">'华文细黑', Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+    </fontFamily>
+    
+    <fontFamily name="华文行楷">
+        <normal>net/sf/jasperreports/fonts/jw/STXINGKA.TTF</normal>
+        <bold>net/sf/jasperreports/fonts/jw/STXINGKA.TTF</bold>
+        <italic>net/sf/jasperreports/fonts/jw/STXINGKA.TTF</italic>
+        <boldItalic>net/sf/jasperreports/fonts/jw/STXINGKA.TTF</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'华文行楷', Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">'华文行楷', Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+    </fontFamily>
+    
+    <fontFamily name="华文新魏">
+        <normal>net/sf/jasperreports/fonts/jw/STXINWEI.TTF</normal>
+        <bold>net/sf/jasperreports/fonts/jw/STXINWEI.TTF</bold>
+        <italic>net/sf/jasperreports/fonts/jw/STXINWEI.TTF</italic>
+        <boldItalic>net/sf/jasperreports/fonts/jw/STXINWEI.TTF</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'华文新魏', Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">'华文新魏', Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+    </fontFamily>
+    
+    <fontFamily name="华文中宋">
+        <normal>net/sf/jasperreports/fonts/jw/STZHONGS.TTF</normal>
+        <bold>net/sf/jasperreports/fonts/jw/STZHONGS.TTF</bold>
+        <italic>net/sf/jasperreports/fonts/jw/STZHONGS.TTF</italic>
+        <boldItalic>net/sf/jasperreports/fonts/jw/STZHONGS.TTF</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'华文中宋', Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">'华文中宋', Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+    </fontFamily>
+     -->
+</fontFamilies>

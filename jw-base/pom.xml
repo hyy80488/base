@@ -1,0 +1,79 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.jw</groupId>
+	<artifactId>jw-base</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>base-000</module>
+		<!-- zk封装 -->
+		<module>base-001</module>
+		<!-- redis cluster封装 -->
+		<module>base-002</module>
+		<!-- MQ接口定义 -->
+		<module>base-003</module>
+		<!-- MQ的Kafka实现 -->
+		<!-- <module>base-004</module> -->
+		<!-- MQ的RabbitMq实现 -->
+		<module>base-005</module>
+		<!-- MQ的RocketMq实现 -->
+		<!-- <module>base-006</module> -->
+		<!-- tbschedule封装 -->
+		<module>base-007</module>
+		<!-- hadoop、hbase、spark封装 -->
+		<!-- <module>base-008</module> -->
+		<!-- elasticsearch封装 -->
+		<module>base-009</module>
+		<!-- FastDFS封装 -->
+		<module>base-010</module>
+		<!-- DataX封装 -->
+		<!-- <module>base-011</module> -->
+		<!-- XDiamond封装 -->
+		<module>base-012</module>
+		<!-- Canal封装 -->
+		<!-- <module>base-013</module> -->
+		<!-- Jasperreports封装 -->
+		<!-- <module>base-014</module> -->
+		<!-- Memcached封装 -->
+		<!-- <module>base-015</module> -->
+		<!-- redis-sentinel封装 -->
+		<!-- <module>base-016</module> -->
+		<!-- websocket封装tomcat -->
+		<module>base-017</module>
+		<!-- otter -->
+		<!-- <module>base-018</module> -->
+		<!-- otter manager -->
+		<!-- <module>base-019</module> -->
+		<!-- Elastic-Job-Lite -->
+		<module>base-020</module>
+		<!-- MongoDB -->
+		<!-- <module>base-021</module> -->
+		
+		
+		<module>0000001</module>
+		<module>0000002</module>
+		<module>0001001</module>
+		<module>0002001</module>
+		<module>0003001</module>
+		<module>0004001</module>
+		<module>0005001</module>
+		<module>0006001</module>
+		<module>0007001</module>
+		<module>0008001</module>
+	</modules>
+
+	<distributionManagement>
+		<repository>
+			<id>base-release</id>
+			<name>base release version</name>
+			<url>http://192.168.18.220:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>base-snapshots</id>
+			<name>base snapshots version</name>
+			<url>http://192.168.18.220:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+</project>

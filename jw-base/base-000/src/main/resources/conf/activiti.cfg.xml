@@ -1,0 +1,35 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource_default" />
+	</bean>
+
+	<bean id="processEngineConfiguration" class="org.activiti.spring.SpringProcessEngineConfiguration">
+		<property name="dataSource" ref="dataSource_default" />
+		<property name="transactionManager" ref="transactionManager" />
+    	<property name="databaseSchemaUpdate" value="true" />
+    	<property name="jobExecutorActivate" value="false" />
+	</bean>
+
+	<bean id="processEngine" class="org.activiti.spring.ProcessEngineFactoryBean">
+		<property name="processEngineConfiguration" ref="processEngineConfiguration" />
+	</bean>
+
+	<!-- 创建activiti提供的各种服务 -->
+	<!-- 工作流仓储服务 -->
+	<bean id="repositoryService" factory-bean="processEngine" factory-method="getRepositoryService" />
+	<!-- 工作流运行服务 -->
+	<bean id="runtimeService" factory-bean="processEngine" factory-method="getRuntimeService" />
+	<!--  工作流任务服务-->
+	<bean id="taskService" factory-bean="processEngine" factory-method="getTaskService" />
+	<!--  工作流历史数据服务-->
+	<bean id="historyService" factory-bean="processEngine" factory-method="getHistoryService" />
+	<!--  工作流管理服务-->
+	<bean id="managementService" factory-bean="processEngine" factory-method="getManagementService" />
+	<!-- 工作流唯一服务 -->
+	<bean id="IdentityService" factory-bean="processEngine" factory-method="getIdentityService" />
+
+</beans>

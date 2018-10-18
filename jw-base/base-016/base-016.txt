@@ -1,0 +1,3 @@
+base-016：
+
+redis-sentinel java客户端集群的自动切换
