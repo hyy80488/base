@@ -1,3 +1,0 @@
-base-002：
-
-cache缓存层封装（redis）

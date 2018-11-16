@@ -1,6 +1,0 @@
-base-017：
-
-websocket
-可消费rabbitmq消息，发送通知
-
-ps:必须在tomcat容器中使用

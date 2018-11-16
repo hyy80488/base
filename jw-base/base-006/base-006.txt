@@ -1,3 +1,0 @@
-base-006：
-
-RocketMq实现
